@@ -3,7 +3,7 @@ using YourOrderPlease;
 
 namespace Tests
 {
-    public class Tests
+    public class YourOrderTest
     {
         [Test, Description("Sample Tests")]
         public void SampleTest()
