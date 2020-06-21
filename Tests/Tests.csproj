@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\YourOrderPlease\YourOrderPlease.csproj" />
     <ProjectReference Include="..\MessageAliens\MessageAliens.csproj" />
+    <ProjectReference Include="..\SimpleAssembler\SimpleAssembler.csproj" />
   </ItemGroup>
 
 </Project>
