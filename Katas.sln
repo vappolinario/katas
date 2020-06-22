@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAssembler", "SimpleAs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToEnd", "ZeroToEnd\ZeroToEnd.csproj", "{0B968052-5F57-44DD-ACE0-E0B2F6E32D43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectPangram", "DetectPangram\DetectPangram.csproj", "{A545EAF1-7A04-46DC-B907-102B14E66AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{0B968052-5F57-44DD-ACE0-E0B2F6E32D43}.Release|x64.Build.0 = Release|Any CPU
 		{0B968052-5F57-44DD-ACE0-E0B2F6E32D43}.Release|x86.ActiveCfg = Release|Any CPU
 		{0B968052-5F57-44DD-ACE0-E0B2F6E32D43}.Release|x86.Build.0 = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|x64.Build.0 = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|x64.ActiveCfg = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|x64.Build.0 = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A545EAF1-7A04-46DC-B907-102B14E66AF9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
