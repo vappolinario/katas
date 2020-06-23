@@ -18,6 +18,7 @@
     <ProjectReference Include="..\SimpleAssembler\SimpleAssembler.csproj" />
     <ProjectReference Include="..\ZeroToEnd\ZeroToEnd.csproj" />
     <ProjectReference Include="..\DetectPangram\DetectPangram.csproj" />
+    <ProjectReference Include="..\NonRepeatingChar\NonRepeatingChar.csproj" />
   </ItemGroup>
 
 </Project>
