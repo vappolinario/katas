@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectPangram", "DetectPang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonRepeatingChar", "NonRepeatingChar\NonRepeatingChar.csproj", "{065D6FD9-444C-4601-BAD6-CED4AB6BDCF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigNumber", "BigNumber\BigNumber.csproj", "{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{065D6FD9-444C-4601-BAD6-CED4AB6BDCF7}.Release|x64.Build.0 = Release|Any CPU
 		{065D6FD9-444C-4601-BAD6-CED4AB6BDCF7}.Release|x86.ActiveCfg = Release|Any CPU
 		{065D6FD9-444C-4601-BAD6-CED4AB6BDCF7}.Release|x86.Build.0 = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|x64.Build.0 = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Debug|x86.Build.0 = Debug|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|x64.ActiveCfg = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|x64.Build.0 = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|x86.ActiveCfg = Release|Any CPU
+		{3544A430-BCBA-41A6-BFE1-F3555AEBBF68}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
