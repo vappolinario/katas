@@ -23,9 +23,9 @@ namespace GetTheLoop
     {
         public static int GetLoopSize(Node startNode)
         {
-            var fast = startNode.Next.Next;
-            var slow = startNode.Next;
-            while (fast != slow)
+            var slow = startNode;
+            var fast = startNode.Next;
+            while (!fast.Equals(slow))
             {
                 slow = slow.Next;
                 fast = fast.Next.Next;
@@ -33,7 +33,7 @@ namespace GetTheLoop
 
             fast = fast.Next;
             int steps = 1;
-            if (!slow.Equals(fast))
+            while (!slow.Equals(fast))
             {
                 fast = fast.Next;
                 steps++;
