@@ -20,6 +20,7 @@
     <ProjectReference Include="..\DetectPangram\DetectPangram.csproj" />
     <ProjectReference Include="..\NonRepeatingChar\NonRepeatingChar.csproj" />
     <ProjectReference Include="..\BigNumber\BigNumber.csproj" />
+    <ProjectReference Include="..\GetTheLoop\GetTheLoop.csproj" />
   </ItemGroup>
 
 </Project>
