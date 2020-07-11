@@ -21,6 +21,7 @@
     <ProjectReference Include="..\NonRepeatingChar\NonRepeatingChar.csproj" />
     <ProjectReference Include="..\BigNumber\BigNumber.csproj" />
     <ProjectReference Include="..\GetTheLoop\GetTheLoop.csproj" />
+    <ProjectReference Include="..\SnailSort\SnailSort.csproj" />
   </ItemGroup>
 
 </Project>
