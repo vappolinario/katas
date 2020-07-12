@@ -22,6 +22,7 @@
     <ProjectReference Include="..\BigNumber\BigNumber.csproj" />
     <ProjectReference Include="..\GetTheLoop\GetTheLoop.csproj" />
     <ProjectReference Include="..\SnailSort\SnailSort.csproj" />
+    <ProjectReference Include="..\Rot13\Rot13.csproj" />
   </ItemGroup>
 
 </Project>
