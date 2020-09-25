@@ -23,6 +23,7 @@
     <ProjectReference Include="..\GetTheLoop\GetTheLoop.csproj" />
     <ProjectReference Include="..\SnailSort\SnailSort.csproj" />
     <ProjectReference Include="..\Rot13\Rot13.csproj" />
+    <ProjectReference Include="..\Top3Words\Top3Words.csproj" />
   </ItemGroup>
 
 </Project>
