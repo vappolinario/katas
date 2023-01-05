@@ -6,7 +6,7 @@ namespace Tests
     public class GetTheLoopTests
     {
         [Test, Description("Sample Tests")]
-        public void SampleTest()
+        public void LoopTest()
         {
             var n1 = new Node();
             var n2 = new Node();
@@ -20,7 +20,7 @@ namespace Tests
         }
 
         [Test, Description("Sample Tests")]
-        public void SampleTest2()
+        public void LoopTest2()
         {
             var n1 = new Node();
             var n2 = new Node();

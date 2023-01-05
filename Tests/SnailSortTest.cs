@@ -7,7 +7,7 @@ namespace Tests
     public class SnailSortTests
     {
         [Test, Description("3x3")]
-        public void SampleTest()
+        public void SnailTest()
         {
             int[][] array =
          {
@@ -21,7 +21,7 @@ namespace Tests
         }
 
         [Test, Description("5x5")]
-        public void SampleTest2()
+        public void SnailTest2()
         {
             int[][] array =
          {
@@ -37,7 +37,7 @@ namespace Tests
         }
 
         [Test, Description("Vazio")]
-        public void SampleTest3()
+        public void SnailTest3()
         {
             int[][] array = { new int[]{} };
 

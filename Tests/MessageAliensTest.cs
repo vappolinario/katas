@@ -6,7 +6,7 @@ namespace Tests
     public class MessageAliensTest
     {
         [Test]
-        public void SampleDecode()
+        public void AlienDecodeTest()
         {
             Assert.AreEqual("hello", AlienMessageDecoder.Decode(@"]()]|_]]|_]][-]|-|]"));
             Assert.AreEqual("blip", AlienMessageDecoder.Decode("{|^{|{{|_{]3{"));

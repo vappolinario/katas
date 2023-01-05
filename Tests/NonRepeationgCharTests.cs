@@ -5,8 +5,8 @@ namespace Tests
 {
     public class NonRepeatingCharTests
     {
-        [Test, Description("Sample Tests")]
-        public void SampleTest()
+        [Test, Description("Non Repeating Char Test")]
+        public void NonRepeatingCharTest()
         {
             Assert.AreEqual("a", NonRepeatingCharKata.FirstNonRepeatingLetter("a"));
             Assert.AreEqual("t", NonRepeatingCharKata.FirstNonRepeatingLetter("stress"));

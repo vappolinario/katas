@@ -6,14 +6,14 @@ namespace Tests
 {
     public class Top3WordsTests
     {
-        [Test, Description("Sample Tests")]
-        public void SampleTest()
+        [Test, Description("Top Word Test")]
+        public void TopWordTest()
         {
             Assert.AreEqual(new List<string> { "e", "d", "a" }, TopWords.Top3("a a a  b  c c  d d d d  e e e e e"));
         }
 
-        [Test, Description("Sample Tests 1")]
-        public void SampleTest1()
+        [Test, Description("Top Word Test 1")]
+        public void TopWordTest1()
         {
 
             Assert.AreEqual(new List<string> { "e", "ddd", "aa" }, TopWords.Top3("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb cc cC e e e"));
@@ -21,41 +21,41 @@ namespace Tests
         }
 
 
-        [Test, Description("Sample Tests 2")]
-        public void SampleTest2()
+        [Test, Description("Top Word Test 2")]
+        public void TopWordTest2()
         {
 
             Assert.AreEqual(new List<string> { "won't", "wont" }, TopWords.Top3("  //wont won't won't "));
         }
 
-        [Test, Description("Sample Tests 3")]
-        public void SampleTest3()
+        [Test, Description("Top Word Test 3")]
+        public void TopWordTest3()
         {
 
             Assert.AreEqual(new List<string> { "e" }, TopWords.Top3("  , e   .. "));
         }
 
-        [Test, Description("Sample Tests 4")]
-        public void SampleTest4()
+        [Test, Description("Top Word Test 4")]
+        public void TopWordTest4()
         {
 
             Assert.AreEqual(new List<string> { }, TopWords.Top3("  ...  "));
         }
 
-        [Test, Description("Sample Tests 5")]
-        public void SampleTest5()
+        [Test, Description("Top Word Test 5")]
+        public void TopWordTest5()
         {
             Assert.AreEqual(new List<string> { }, TopWords.Top3("  '  "));
         }
 
-        [Test, Description("Sample Tests 6")]
-        public void SampleTest6()
+        [Test, Description("Top Word Test 6")]
+        public void TopWordTest6()
         {
             Assert.AreEqual(new List<string> { }, TopWords.Top3("  '''  "));
         }
 
-        [Test, Description("Sample Tests 7")]
-        public void SampleTest7()
+        [Test, Description("Top Word Test 7")]
+        public void TopWordTest7()
         {
             Assert.AreEqual(new List<string> { "a", "of", "on" }, TopWords.Top3(
                         string.Join("\n", new string[]{"In a village of La Mancha, the name of which I have no desire to call to",
