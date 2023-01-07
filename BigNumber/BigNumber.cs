@@ -1,8 +1,6 @@
-﻿using System;
-using System.Numerics;
-
-namespace BigNumber
+﻿namespace BigNumber
 {
+    using System.Numerics;
     public class BigNumberKata
     {
       public static string Add(string a, string b)
